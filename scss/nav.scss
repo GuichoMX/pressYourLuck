@@ -1,0 +1,26 @@
+header{
+    nav{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                list-style: none;
+                padding: 16px;
+                &:hover{
+                    @media screen and (max-width: 768px) {
+                        background-color: red;
+                      }
+                  
+                      @media screen and (max-width: 425px) {
+                        background-color: yellow;
+                      }
+                    cursor: pointer;
+                    background-color: beige;
+                }
+            }
+            &:hover{
+                border: 1px dashed black;
+            }
+        }
+    }
+}
