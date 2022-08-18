@@ -3,22 +3,25 @@ header{
         ul{
             display: flex;
             justify-content: space-around;
-            li{
-                list-style: none;
-                padding: 16px;
+            a{
                 flex-grow: 1;
                 text-align: center;
-                &:hover{
-                    // Tablet
-                    @media screen and (max-width: 768px) {
-                        background-color: red;
-                      }
-                    // Móvil  
-                    @media screen and (max-width: 425px) {
-                        background-color: yellow;
-                      }
-                    cursor: pointer;
-                    background-color: beige;
+                li{
+                    list-style: none;
+                    padding: 16px;
+                    
+                    &:hover{
+                        // Tablet
+                        @media screen and (max-width: 768px) {
+                            background-color: red;
+                          }
+                        // Móvil  
+                        @media screen and (max-width: 425px) {
+                            background-color: yellow;
+                          }
+                        cursor: pointer;
+                        background-color: beige;
+                    }
                 }
             }
             &:hover{
