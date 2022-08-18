@@ -3,6 +3,14 @@
 @import 'mixins';
 @import 'nav';
 @import 'collapse';
+@import 'contact';
+
+/* body{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}*/
 
 #title {
   font-size: $font-size;
