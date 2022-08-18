@@ -2,16 +2,19 @@ header{
     nav{
         ul{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             li{
                 list-style: none;
                 padding: 16px;
+                flex-grow: 1;
+                text-align: center;
                 &:hover{
+                    // Tablet
                     @media screen and (max-width: 768px) {
                         background-color: red;
                       }
-                  
-                      @media screen and (max-width: 425px) {
+                    // Móvil  
+                    @media screen and (max-width: 425px) {
                         background-color: yellow;
                       }
                     cursor: pointer;

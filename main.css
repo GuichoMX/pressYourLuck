@@ -6,11 +6,13 @@
 
 header nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 header nav ul li {
   list-style: none;
   padding: 16px;
+  flex-grow: 1;
+  text-align: center;
 }
 header nav ul li:hover {
   cursor: pointer;
